@@ -8,7 +8,8 @@ Image Credit: http://cvlab.postech.ac.kr/research/deconvnet/
 In the process, we lose some resolution because the activations were downscaled and therefore to add back some resolution by adding activations from the previous layer called as skip connections.
 
 #### Training and optimisation
-The network was trained on a g3x2XLarge AWS instance using the following hyper parameters:
+The network was trained on a g3x2XLarge AWS instance on the [Kitti Road data set](http://www.cvlibs.net/datasets/kitti/eval_road.php)
+using the following hyper parameters:
 'lr':              0.0001,
 'keep_prob':       0.25,
 'epochs':          25,
